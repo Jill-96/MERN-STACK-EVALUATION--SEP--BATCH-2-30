@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+#square{
+    margin: 100px;
+    width: 350px; 
+    height: 50px; 
+    background-color: green;
+}
+/* .transform{
+  transition: all 2s ease;
+} */
+.square-transform{
+  margin: 100px;
+  width: 400px; 
+  height: 100px; 
+  background-color: red;
+  /* transition: all 2s ease; */
+}

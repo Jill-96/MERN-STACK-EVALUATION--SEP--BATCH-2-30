@@ -1,0 +1,56 @@
+.body{
+    width: 600px;
+    height: 600px;
+    display:flex;
+}
+.left{
+    width: 200px;
+    height: 600px;
+    background-color: rgb(223, 26, 121);
+    color: white;
+    text-align: center;
+    /* padding-top: 300px; */
+}
+.pleft{
+    padding-top: 250px;
+}
+.right{
+    width: 400px;
+    height: 600px;
+}
+.top{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(43, 160, 143);
+    color: white;
+    text-align: center;
+}
+.bottom{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+.bleft{
+    width:100px;
+    height: 300px;
+}
+.bright{
+    width:300px;
+    height: 300px;
+    background-color: darkviolet;
+    color: white;
+    text-align: center;
+}
+.bltop{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.blbot{
+    width: 100px;
+    height: 200px;
+    background-color: lightgreen;
+}
+

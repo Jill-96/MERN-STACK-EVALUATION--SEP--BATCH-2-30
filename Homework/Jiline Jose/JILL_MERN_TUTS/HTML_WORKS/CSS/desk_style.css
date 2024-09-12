@@ -1,0 +1,78 @@
+.body{
+    width: 650px;
+    height: 650px;
+}
+.top{
+    width: 650px;
+    height: 50px;
+    display:flex;
+}
+.header{
+    width:100px;
+    height:50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.menu{
+    width: 550px;
+    height: 50px;
+    background-color: rgb(244, 4, 120);
+    color:white;
+    text-align: center;
+}
+.hero{
+    width:650px;
+    height: 300px;
+    background-color: rgb(127, 127, 182);
+    color: white;
+    text-align: center;
+}
+.main{
+    width: 650px;
+    height: 200px;
+    display:flex;
+}
+.main_left{
+    width: 325px;
+    height: 200px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+.main_right{
+    width: 325px;
+    height: 200px;
+    display:flex;
+}
+.vacant{
+    width: 162.5px;
+    height:200px;
+    /* background-color: white; */
+}
+.img_extra{
+    width: 162.5px;
+    height: 200px;
+    margin-left: 162.5px;
+}
+.image{
+    width: 162.5px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    color: black;
+}
+.extra{
+    width:162.5px;
+    height: 100px;
+    background-color: lightgreen;
+    color:black;
+    text-align: center;
+}
+.banner{
+    width: 650px;
+    height: 100px;
+    background-color: rgb(93, 93, 29);
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    /* background-color: white; */
+    font-family: 'Poppins';
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav{
+    background-color: rgba(0,0,0,0.3); /** Change value according to you transperncy**/
+    /* z-index:1; */
+}
+.video-container{
+    z-index: -500;
+    width: 1540px;
+    height: 500px;
+    overflow: hidden;
+    position:absolute;
+}
+video{
+    object-fit: cover;
+    /* width: 1500px;
+    height: 500px; */
+}
+.navbar{
+    z-index:1;
+    width: 1500px;
+    height: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 300px;
+    color: white;
+}
+.nav-first{
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    width: 400px;
+    /* height: 100px; */
+}
+.nav-links{
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    width: 1530px;
+    height: 500px;
+    /* margin-left: 50px; */
+    margin-top: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.autumn{
+    width: 400px;
+    /* margin-left: 400px; */
+    /* margin-top:450px; */
+    text-align: center;
+}
+.september{
+    width: 1500px;
+    /* margin-top: 20px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.autumn-them{
+    margin-top: 220px;
+    width: 1400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.autumn-him>img{
+    width: 600px;
+    /* height: 750px; */
+}
+.autumn-her>img{
+    width: 600px;
+}
+.boldp{
+    font-weight: bold;
+    color: black;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="CSS/button-click.css"> -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+            box-sizing: border-box;
+        }
+        #square{
+            /* margin: 100px;
+            width: 350px; 
+            height: 50px; 
+            background-color: green; */
+            /* color:blue;
+            font-size: 50px; */
+        }
+        .transition{
+            margin: 100px;
+            width: 350px; 
+            height: 50px; 
+            background-color: green;
+            color:red;
+            font-size: 30px;
+        }
+        .transform{
+            transition: all 3s ease;
+        }
+        .square-transform{
+            margin: 100px;
+            width: 450px; 
+            height: 100px; 
+            color: green;
+            background-color: red;
+            font-size: 50px;
+            /* transition: all 2s ease; */
+        }
+    </style>
+</head>
+<body>
+    <div id="square" class="transition">
+        Animation Div
+    </div>
+    <div class="button">
+        <button onclick="growDiv()">Click me</button>
+    </div>
+
+    <script>
+        function growDiv() {
+            var x = document.getElementById('square');
+            // x.classList.toggle('square-transform');
+            // console.log(x);
+
+            x.classList.toggle("square-transform");
+
+            //let para = document.getElementById("p");
+ 
+            // if (x.classList.contains("square-transform")) {
+            //     x.classList.remove("square-transform");
+            //     x.classList.add("transition");
+            // }
+            // else {
+            //     x.classList.add("square-transform");
+            //     x.classList.remove("transition");
+            // }
+            x.classList.add('transform');
+        }
+    </script>
+</body>
+</html>

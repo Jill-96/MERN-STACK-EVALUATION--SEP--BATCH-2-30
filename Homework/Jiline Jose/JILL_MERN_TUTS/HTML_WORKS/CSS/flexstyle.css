@@ -1,0 +1,55 @@
+.parent-1{
+    width: 600px;
+    height: 600px;
+    background-color: green;
+}
+.pparent-1{
+    width: 600px;
+    height: 300px;
+}
+.pparent-2{
+    width: 600px;
+    height: 300px;
+}
+.parent-2{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+}
+.parent-3{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.a1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.a2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pparent-1{
+    display:flex;
+    justify-content: start;
+    align-items: start;
+}
+.pparent-2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}

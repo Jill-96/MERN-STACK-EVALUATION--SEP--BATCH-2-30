@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+.square{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+}
+.animation{
+    /* animation: moveto 3s ease backwards; */
+    animation: moveto 3s ease infinite;
+    /* animation: moveto 3s ease infinite; */
+}
+
+@keyframes moveto {
+    0%{
+        transform: translate(0,0);
+    }
+    15%{
+        transform: translate(200px,0);
+    }
+    25%{
+        transform: translate(400px,0);
+    }
+    37.5%{
+        transform: translate(400px,200px);
+    }
+    50%{
+        transform:translate(400px,400px);
+    }
+    62.5%{
+        transform: translate(200px,400px);
+    }
+    75%{
+        transform: translate(0px,400px);
+    }
+    87.5%{
+        transform: translate(0px,200px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+
+.square2{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    color: white;
+    font-size: 20px;
+    animation: square_move 3s ease;
+    /* animation-name: square_move; */
+}
+@keyframes square_move {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }

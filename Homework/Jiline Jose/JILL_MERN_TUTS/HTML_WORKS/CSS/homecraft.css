@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.main-left{
+    width: 800px;
+    height: 900px;
+    background-color: aquamarine;
+}
+.main-right{
+    width: 1600px;
+    height: 900px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: start;
+}
+.left-content{
+    margin-left: 50px;
+    margin-top: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right-content{
+    /* width: 850px; */
+    margin-left: 50px;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.create{
+    margin-left: 700px;
+    /* display: flex;
+    justify-content: end; */
+}
+.buttons{
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+}
+.buttons-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.google-btn{
+    background-color: #e24531;
+    color:white;
+    padding: 10px 30px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fb-btn{
+    background-color: #1f7bf2;
+    color: white;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 10px;
+}
+.x-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 10px;
+}
+.linkedin-btn{
+    background-color: #295e86;
+    color: white;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 10px;
+}
+.apple-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 10px;
+}
+.login-form{
+    width: 900px;
+}
+.form-head{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-box{
+    width: 900px;
+    height: 40px;
+    border: 0;
+    background-color: #eeeeee;
+    color: black;
+    padding: 10px 10px;
+    /* text-align:center; */
+    text-decoration: none;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 14px;
+}
+.green-link{
+    color: #049579;
+}
+.login-btn{
+    width: 450px;
+    background-color: #049579;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 5px;
+    display:inline-block;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label,p{
+    font-family: Arial;
+    font-size: 14px;
+}

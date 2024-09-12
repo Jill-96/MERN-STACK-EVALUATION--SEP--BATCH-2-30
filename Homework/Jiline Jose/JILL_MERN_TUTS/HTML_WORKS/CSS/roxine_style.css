@@ -1,0 +1,103 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: initial;
+} */
+
+body{
+    margin:0px;
+    padding: 0px;
+    /* background-image: url('img/blue_tech.jpg') repeat; */
+    background-image: url("../img/bluee_tech.jpg");
+    /* background: url(img/blue_tech.jpg) repeat 0 0; */
+}
+.nav{
+    width:auto;
+    height: 100px;
+    background-color: rgb(10, 10, 57);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    /* margin-left: 20px; */
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-content{
+    /* margin-left: 700px; */
+    width: 500px;
+    height: 100px;
+    padding-right: 50px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-list{
+    /* height: 90px; */
+    margin-top: 45px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    list-style-type: none;      
+}
+.content{
+    margin: 100px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bootstrap{
+    width:600px;
+    height:250px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+}
+.buttons{
+    width: 450px;
+    height: 45px;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+}
+.buttonl{
+    /* width: ; */
+    background-color: rgb(17, 17, 105);
+    color: white;
+    padding: 10px 70px;
+    text-align:center;
+    text-decoration: none;
+    border-radius: 40px;
+    display:inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttonr{
+    /* background-color: white; */
+    color: white;
+    padding: 10px 70px;
+    text-align:center;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    display:inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

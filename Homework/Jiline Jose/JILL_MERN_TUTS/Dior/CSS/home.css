@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-color: white;
+    font-family: 'Poppins';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    width: 1500px;
+    height: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 300px;
+}
+.nav-first{
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    width: 400px;
+    /* height: 100px; */
+}
+.nav-links{
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 10;
+    font-weight: 400;
+    letter-spacing: 2px;
+    /* overflow:hidden; */
+}
+.main>div{
+    flex: 0 0 750px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    cursor: pointer;
+}
+.main>div:nth-of-type(1){
+    background: url('/img/dior-cara.jpg') no-repeat 50% /cover;
+}
+.main>div:nth-of-type(2){
+    background: url('/img/dior-2.jpg') no-repeat 50% /cover;
+}
+.main>div .content{
+    font-size: 15px;
+    /* display: flex; */
+    /* align-items: center; */
+    padding-left: 300px;
+    padding-top: 300px;
+    /* flex-direction: column; */
+    /* transform: translateY(100%); */
+    transition: opacity 0.5s ease-out, transform 0.5s 0.2s;
+    visibility: visible;
+}
+.main>div:hover{
+    flex: 0 0 850px;
+    /* transform: translateY(-30px); */
+}
+.main>div:hover .content{
+    opacity: 1;
+    /* transform: translateY(300px); */
+    visibility: visible;
+}
+
+img{
+    /* width: 750px; */
+    /* height: 750px; */
+}
+.fashion{
+    /* width: 750px;
+    height: 750px;
+    transition: width 2s; */
+}
+/* .fashion:hover{
+    width: 800px;
+} */
+.fragrance{
+    /* width: 750px;
+    height: 750px;
+    transition: width 2s; */
+}
+/* .fragrance:hover{
+    width: 800px;
+} */
+
+/* .card{
+    flex:0. 0 120px;
+    height: 100%;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+} */
+/* .card:hover{
+    flex: 1;
+} */
+.fa{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-220%, 300%);
+    font-size: 20px; */
+    /* transition: width 2s; */
+}
+.fb{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(100%, 300%); 
+    font-size: 20px; */
+    /* transition: width 2s; */
+}
+h2,p{
+    color: white;
+    text-shadow: 2px 2px black;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* margin:0px; */
+    /* padding: 0px; */
+    background-image: url('../img/alan.jpg');
+    /* background-size: 1550px 900px; */
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    height: 100px;
+    width:auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.logo{
+    /* margin-left: 100px; */
+    width: 200px;
+    height: 100px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'monospace',Arial,'san-serif';
+}
+.expanded{
+    font-stretch: 200%;
+}
+.nav-links{
+    width: 500px;
+    height: 100px;
+    /* padding-right: 50px; */
+    color:white;
+}
+.nav-list{
+    /* height: 90px; */
+    margin-top: 45px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    /* color:white; */
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap:1px;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+}
+a:link {
+    /* text-decoration: none; */
+    color: white;
+  }
+  
+  a:visited {
+    /* text-decoration: none; */
+    color:white;
+  }
+  
+  a:hover:not(.active) {
+    /* text-decoration: none; */
+    color:red;
+  }
+  
+  a.active {
+    /* text-decoration: none; */
+    color: red;
+  }
+.main{
+    width:auto;
+    height:auto;
+    margin: 200px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: start; */
+}
+.left{
+    width:600px;
+    height:250px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: left;
+    font-size: 50px;
+}
+p{
+    font-size: 15px;
+    text-align: left;
+    font-style: italic;
+}
