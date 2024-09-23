@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 17px;
+}
+main{
+    margin: 100px;
+    width: 1400px;
+    height: auto;
+}
+main>p{
+    color: #c9ab81;
+}
+main>p:nth-of-type(2){
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+.main-menu{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.menu-item>p{
+    color: #c9ab81;
+}
+.menu-item>p:nth-of-type(2){
+    font-size: 50px;
+}
+.menu-item>div{
+    /* display: flex; */
+}
